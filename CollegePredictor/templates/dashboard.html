@@ -1,0 +1,7 @@
+<h3>Eligible Colleges:</h3>
+
+<ul>
+{% for college in colleges %}
+    <li>{{ college[0] }} - {{ college[1] }}</li>
+{% endfor %}
+</ul>
